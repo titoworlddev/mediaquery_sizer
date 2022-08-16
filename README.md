@@ -17,7 +17,7 @@
   - Orientation
   - Screen Size
 
-<img src="example_screenshot.png" width="200">
+<img src="https://raw.githubusercontent.com/titoworlddev/mediaquery_sizer/master/example_screenshot.png" width="200">
 
 ## Getting started
 
