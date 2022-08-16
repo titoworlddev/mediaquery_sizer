@@ -1,3 +1,8 @@
+## 1.0.2 - Aug 16, 2022
+
+- Changes in the documentation.
+- Changes in the README.
+
 ## 1.0.1 - Aug 16, 2022
 
 - Fixed the image in the README.

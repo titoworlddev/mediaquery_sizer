@@ -55,6 +55,8 @@ Container(
 );
 ```
 
+But now you can put it like this
+
 ```dart
 Container(
   // It is the same as using the full MediaQuery but much faster and applicable to all your apps quickly and easily.

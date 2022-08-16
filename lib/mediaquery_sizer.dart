@@ -88,7 +88,7 @@ extension SizerExt on num {
   }
 
   /// Calculates the width depending on the device's screen size
-  /// Eg: 20.h(context) -> will take 20% of the screen's width
+  /// Eg: 20.w(context) -> will take 20% of the screen's width
   double w(BuildContext context) {
     return MediaQuery.of(context).size.width * (this / 100);
   }
