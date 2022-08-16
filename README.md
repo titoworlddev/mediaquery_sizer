@@ -24,7 +24,7 @@
 Copy the dependency into your pubspec.yaml
 
 ```
-mediaquery_sizer: ^0.0.1
+mediaquery_sizer: ^1.0.3
 ```
 
 Import the package in your file to be able to use it

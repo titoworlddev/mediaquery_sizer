@@ -126,6 +126,6 @@ extension SizerExt on num {
     and then have another screen with 390x800, a pixel ratio of 2.5 
     and an aspect ratio of 0.55, since they are not going to look the same. 
     That is why we cannot take into account only the width. */
-    return this * ((((h + w) + (dPR * aR)) / 3) / 4.07) / 100;
+    return this * ((((h + w) + (dPR * aR)) / 3) / 3.75) / 100;
   }
 }

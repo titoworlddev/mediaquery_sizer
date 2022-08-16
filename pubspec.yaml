@@ -1,6 +1,6 @@
 name: mediaquery_sizer
 description: It helps you to use the screen sizes through mediaquery, without having to make instances to shorten its size or use it completely.
-version: 1.0.2
+version: 1.0.3
 homepage: https://titoworld.dev
 repository: https://github.com/titoworlddev/mediaquery_sizer
 
