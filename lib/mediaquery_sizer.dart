@@ -109,10 +109,18 @@ extension SizerExt on num {
     return constraints.maxWidth * (this / 100);
   }
 
+  /// Calculates the sp (Scalable Pixel) depending on the parent's size
+  /// Eg: 12.parentSP(constraints) Makes the specified size look the same on all screen sizes.
+  /// Which means it's going to look just as big in terms of design.
+  /// If you want it to always be the same size in pixels just use [size: 12] as it is done by default.
+  double parentSP(BoxConstraints constraints) {
+    return ((constraints.maxWidth + constraints.maxWidth) / 2 * this) / 100;
+  }
+
   /// Calculates the sp (Scalable Pixel) depending on the device's screen size
   /// Eg: 12.sp(context) Makes the specified size look the same on all screen sizes.
   /// Which means it's going to look just as big in terms of design.
-  /// If you want it to always be the same size in pixels just use 12 as it is done by default.
+  /// If you want it to always be the same size in pixels just use [font-size: 12] as it is done by default.
   double sp(BuildContext context) {
     double h = Sizer.h(context);
     double w = Sizer.w(context);

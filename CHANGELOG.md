@@ -1,3 +1,8 @@
+## 1.1.0 - Jan 28, 2023
+
+- Added parentSP() function. This function returns the parent scalable pixel value.
+- Updated README.md
+
 ## 1.0.3 - Aug 16, 2022
 
 - Changes in the formula of scalable pixels

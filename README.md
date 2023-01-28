@@ -7,8 +7,9 @@
   - Height Percentage
   - Scalable Pixels
 - Use sizes by percentage of the parent widget thanks to the LayoutBuilder
-  - Parent Width
-  - Parent Height
+  - Parent Width Percentage
+  - Parent Height Percentage
+  - Parent Scalable Pixels
 - Manage all the information on the screen easily
   - Width
   - Height
