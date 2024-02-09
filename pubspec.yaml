@@ -1,11 +1,11 @@
 name: mediaquery_sizer
 description: It helps you to use the screen sizes through mediaquery, without having to make instances to shorten its size or use it completely.
-version: 1.1.0
+version: 1.1.1
 homepage: https://titoworld.dev
 repository: https://github.com/titoworlddev/mediaquery_sizer
 
 environment:
-  sdk: '>=2.17.6 <3.0.0'
+  sdk: '>=2.17.6 <4.0.0'
   flutter: '>=1.17.0'
 
 dependencies:
