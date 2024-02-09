@@ -44,9 +44,9 @@ By default it should be like this
 Size size = MediaQuery.of(context).size;
 Container(
   // Long way
-  width: MediaQuery.of(context).size * 0.1,
+  width: MediaQuery.of(context).size.width * 0.1,
   // Short way
-  height: size * 0.2,
+  height: size.height * 0.2,
   color: Colors.red,
   Text(
     'Hello world!',
@@ -71,6 +71,8 @@ Container(
   )
 );
 ```
+
+---
 
 Use the screen information through the static methods of the [Sizer] class
 
@@ -105,6 +107,8 @@ Column(
   ],
 ),
 ```
+
+---
 
 Use the size as a percentage of the size of the containing parent widget
 
